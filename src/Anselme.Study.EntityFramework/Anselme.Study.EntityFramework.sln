@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-Console", "EF-Console\EF-Console.csproj", "{9168FE4F-3221-431C-B546-EA9F6AA7B7C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anselme.Study.EntityFramework", "EF-Console\Anselme.Study.EntityFramework.csproj", "{9168FE4F-3221-431C-B546-EA9F6AA7B7C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{6B4DC0B1-10C5-4F28-988E-9F5344B76332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9168FE4F-3221-431C-B546-EA9F6AA7B7C1} = {6B4DC0B1-10C5-4F28-988E-9F5344B76332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFB071CD-FAEC-4594-934A-4A6C8CF0DF82}
