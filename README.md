@@ -13,6 +13,19 @@ Considere one database called 'School_1' with one specific table called 'Student
 ## Exercice 2 - Puralizing
 If you have a table called 'Students' but the class on code wants to be called as 'Student'. How do you do that with pluralization?
 
+Ok, normally, nothing special needed to be done, but in my case I have some throubles.
+What happenning?
+First, you need to know my configuration file. I configure EntityFramework > Contexts > Context tag with a specific attribute: disableDatabaseInitialization = true
+So, the convention of pluralizing do not work in my case.
+
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/pluralize-context-class.png)
+
+If I change disableDatabaseInitialization to False it works, but i can create new tables on the database. So, i really do not want to do that on my production stage.
+So, I rosolve keep disableDatabaseInitialization as false, but, on my Context Class I put this configuration for avoid initializing database.
+
+![Context Class](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/pluralizing-context-configuration.png)
+
+So, thats work without changes the conventions.
 
 ## Exercice 3 - CRUD
 xxxx

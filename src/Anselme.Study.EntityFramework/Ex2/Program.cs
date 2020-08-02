@@ -10,6 +10,15 @@ namespace Ex2
     {
         static void Main(string[] args)
         {
+            DataAccess da = new DataAccess();
+            var students = da.Student;
+
+            foreach (Student student in students)
+            {
+                Console.WriteLine(student);
+            }
+
+
         }
     }
 }
