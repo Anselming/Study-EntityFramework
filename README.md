@@ -27,57 +27,59 @@ So, I rosolve keep disableDatabaseInitialization as false, but, on my Context Cl
 
 So, thats work without changes the conventions.
 
-## Exercice 3 - CRUD
+## Exercice 3 - Create custom Pluralizing Convention
 xxxx
 
-## Exercice 4 - Database Inicialyzing
+## Exercice 4 - Create another custom conventions
 xxxx
 
-## Exercice 5 - Mapping by Attributes
+## Exercice 5 - CRUD
+xxxx
+
+## Exercice 6 - Database Inicialyzing
+xxxx
+
+## Exercice 7 - Mapping by Attributes
 Mapping by Attributes
 - Relashionship one-one
 - Relashionship one-many
 - Relashionship many-many
 - Relashionship many-many-many
 
-## Exercice 6 - Mapping by Attributes
+## Exercice 8 - Mapping by Attributes
 Mapping by Attributes
 - Table per Hierarchy (TPH)
 - Table per Type (TPT)
 - Table per Concrete Class (TPC)
 
-## Exercice 7 - Know all Attributes
+## Exercice 9 - Know all Attributes
 xxxx
 
-## Exercice 8 - Fluent
+## Exercice 10 - Fluent
 Fluent
 - Entity Mapping
 - Property Mapping
 
-## Exercice 9 - From Database
+## Exercice 11 - From Database
 xxxx
 
-## Exercice 10 - Delete Cascade
+## Exercice 12 - Delete Cascade
 xxxx
 
-## Exercice 11 - Storage Procedure Mapping
+## Exercice 13 - Storage Procedure Mapping
 xxxx
 
-## Exercice 12 - Creating Seeds
+## Exercice 14 - Creating Seeds
 xxxx
 
-## Exercice 13 - Create database automatically
+## Exercice 15 - Create database automatically
 xxxx
 
-## Exercice 14 - Using existing database
+## Exercice 16 - Using existing database
 xxxx
 
-## Exercice 15 - Generic Repository Pattern
+## Exercice 17 - Generic Repository Pattern
 xxxx
 
-
-## Exercice 16 - Create custom Pluralizing Convention
-xxxx
-
-## Exercice 17 - Create custom Pluralizing Convention
+## Exercice 18 - Create custom Inicialization
 xxxx
