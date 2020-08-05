@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Anselme.Study.EntityFramework
 {
-    class Program
+    public class Life // plural is lives
     {
-        static void Main(string[] args)
-        {
-        }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

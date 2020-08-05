@@ -5,10 +5,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6282D3B-EC1A-4AC6-9CF2-6000EDDD3CBC}</ProjectGuid>
+    <ProjectGuid>{846E202E-9F08-430E-8ED2-86CB2A55EA5C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Anselme.Study.EntityFramework</RootNamespace>
-    <AssemblyName>Anselme.Study.EntityFramework</AssemblyName>
+    <RootNamespace>Anselme.Study.EntityFramework.DataAccess.SchoolContext</RootNamespace>
+    <AssemblyName>Anselme.Study.EntityFramework.DataAccess.SchoolContext</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,6 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\Repository.cs" />
+    <Compile Include="DataAccess\StrangePluralyze.cs" />
+    <Compile Include="Model\Foot.cs" />
+    <Compile Include="Model\Knife.cs" />
+    <Compile Include="Model\Life.cs" />
+    <Compile Include="Model\Potato.cs" />
+    <Compile Include="Model\StrangeEntity.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\Tomato.cs" />
+    <Compile Include="Model\Tooth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

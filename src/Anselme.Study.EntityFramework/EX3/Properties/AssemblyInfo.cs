@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Anselme.Study.EntityFramework")]
+[assembly: AssemblyTitle("Ex3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Anselme.Study.EntityFramework")]
+[assembly: AssemblyProduct("Ex3")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a6282d3b-ec1a-4ac6-9cf2-6000eddd3cbc")]
+[assembly: Guid("846e202e-9f08-430e-8ed2-86cb2a55ea5c")]
 
 // Version information for an assembly consists of the following four values:
 //

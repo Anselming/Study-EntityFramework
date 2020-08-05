@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Anselme.Study.EntityFramework
 {
-    public class Student
+    public class Foot      // Plural is feet
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
