@@ -28,7 +28,25 @@ So, I rosolve keep disableDatabaseInitialization as false, but, on my Context Cl
 So, thats work without changes the conventions.
 
 ## Exercice 3 - Create custom Pluralizing Convention
-xxxx
+In this exercicie I've been created a custom convention.
+Imigine this situation: You have a lot a of tables with common name patterns. 
+You can use your database without needs to mapping any tables or any properties.
+Besides that, you can garantee your database is compliant with your name table patterns.
+
+Normally, a lot of people prefere configure the modelCreating virtual method. In this case, you need to do to all your tables.
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-modelCreating.png)
+
+For that i've been create a "Strange" convention.
+All models name like 'Strange....y' has a table called 'Strange....zy'.
+Example: StrangeEntity in database is StrangeEntizy
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-strangezy.png)
+
+So, look at a custom convention to performe these requirements
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-implementing.png)
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-implementing2.png)
+
+So, look at a database
+![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-strangezy.png)
 
 ## Exercice 4 - Create another custom conventions
 xxxx
