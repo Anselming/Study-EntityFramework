@@ -24,9 +24,6 @@ namespace Anselme.Study.EntityFramework
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Conventions.Add(new StrangePluralyzeConvention());
-
-            //modelBuilder.Entity<StrangeEntity>().ToTable("StrangeEntitzy");
-
         }
 
 

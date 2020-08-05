@@ -27,11 +27,6 @@ namespace Anselme.Study.EntityFramework.DataAccess.SchoolContext.DataAccess
         public string ChangeProperty(Type type)       // StrangeEntity (in model) -> StrangeEntitzy (in database)
         {
             string property = type.Name.ToLower();
-
-            //var pluralizationService = DbConfiguration.DependencyResolver.GetService<IPluralizationService>();
-            //var result = pluralizationService.Pluralize(type.Name);
-
-            string result = property;
             string strangePattern = "strange([A-z])*y";
 
             if (Regex.Match(property, strangePattern).Success)
@@ -48,11 +43,11 @@ namespace Anselme.Study.EntityFramework.DataAccess.SchoolContext.DataAccess
                     string strangeModified = strangePart.Remove(strangePart.Length-1);
                     strangeModified = $"strange{strangeModified}zy";
 
-                    result = strangeModified;
+                    property = strangeModified;
                 }
             }
 
-            return result.ToLower();
+            return property;
         }
     }
 }
