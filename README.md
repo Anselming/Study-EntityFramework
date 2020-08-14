@@ -6,8 +6,11 @@ For that I used Visual Studio 2019 and .NET Framework 4.7
 Consider one database called 'School_1' with one specific table called 'Students'.
 
 ![Students Table](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/students-table.png)
+
 ![Students Data](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/students-data.png)
+
 ![Students Table Structure](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/students-table-structure.png)
+
 
 
 ## Exercise 2 - Pluralizing
@@ -54,7 +57,57 @@ So, look at a database
 ![Context Configuration](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/custompluralize-strangezy.png)
 
 ## Exercise 4 - All native conventions
-xxxx
+There are so many conventions. Now Im going to talk a little about each separated in main categories.
+
+### ConceptualModelConventions
+This category works creating the conceptual model by understanting what column is ID, how relashionship works, how pluralizing works ans something like that.
+
+* System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.AssociationInverseDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyNavigationPropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.OneToOneConstraintIntroductionConvention
+* System.Data.Entity.ModelConfiguration.Conventions.NavigationPropertyNameForeignKeyDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.PrimaryKeyNameForeignKeyDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.TypeNameForeignKeyDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyAssociationMultiplicityConvention
+* System.Data.Entity.ModelConfiguration.Conventions.OneToManyCascadeDeleteConventio
+* System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeDiscoveryConvention
+* System.Data.Entity.ModelConfiguration.Conventions.StoreGeneratedIdentityKeyConvention
+* System.Data.Entity.ModelConfiguration.Conventions.PluralizingEntitySetNameConvention
+* System.Data.Entity.ModelConfiguration.Conventions.DeclaredPropertyOrderingConvention
+* System.Data.Entity.ModelConfiguration.Conventions.SqlCePropertyMaxLengthConvention
+* System.Data.Entity.ModelConfiguration.Conventions.PropertyMaxLengthConvention
+* System.Data.Entity.ModelConfiguration.Conventions.DecimalPropertyConvention
+* System.Data.Entity.Infrastructure.ModelContainerConvention
+
+### ConceptualToStoreMappingConventions
+* System.Data.Entity.ModelConfiguration.Conventions.ManyToManyCascadeDeleteConvention
+* System.Data.Entity.ModelConfiguration.Conventions.MappingInheritedPropertiesSupportConvention
+
+### ConfigurationConventions
+* System.Data.Entity.Infrastructure.ModelNamespaceConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyPrimitivePropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.InversePropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.IndexAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ColumnAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.StringLengthAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.MaxLengthAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.DatabaseGeneratedAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ConcurrencyCheckAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.TimestampAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.RequiredNavigationPropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.RequiredPrimitivePropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.KeyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.NotMappedPropertyAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.TableAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeAttributeConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeAttributeConvention
+
+### StoreModelConventions
+* System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention
+* System.Data.Entity.ModelConfiguration.Conventions.ColumnOrderingConventionStrict
+* System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyIndexConvention
+
 
 ## Exercise 5 - CRUD
 xxxx
