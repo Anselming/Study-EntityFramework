@@ -63,18 +63,35 @@ There are so many conventions. Now Im going to talk a little about each separate
 This category works creating the conceptual model by understanting what column is ID, how relashionship works, how pluralizing works ans something like that.
 
 * System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention
-
 That's a convention to detect Id column where the name is 'id' ou type+'id'
 
 * System.Data.Entity.ModelConfiguration.Conventions.AssociationInverseDiscoveryConvention
+That's a conventicion to understand how relashionship association works and revert the association when only one pair of navigation properties exists.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyNavigationPropertyAttributeConvention
+That's a convention attribute (decoration) to undarstand the column as a foreign key
+
 * System.Data.Entity.ModelConfiguration.Conventions.OneToOneConstraintIntroductionConvention
+If you say that one column is a foreign key this convention works for define destination column as a primary key on such entity.
+
 * System.Data.Entity.ModelConfiguration.Conventions.NavigationPropertyNameForeignKeyDiscoveryConvention
+When you have a table that has a foreign key with columns whose names has part of other tables name, you need to use this convention.
+
 * System.Data.Entity.ModelConfiguration.Conventions.PrimaryKeyNameForeignKeyDiscoveryConvention
+When the foreign key matches the name of the primary key, this convention has been used.
+
 * System.Data.Entity.ModelConfiguration.Conventions.TypeNameForeignKeyDiscoveryConvention
+When the foreign key matches the name of the primary key with a type name, this convention has been used.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyAssociationMultiplicityConvention
-* System.Data.Entity.ModelConfiguration.Conventions.OneToManyCascadeDeleteConventio
+This convention understand if foreign key is optional or not by the nullable definition.
+
+* System.Data.Entity.ModelConfiguration.Conventions.OneToManyCascadeDeleteConvention
+The requirement relationships can be deleted in cascade by this convention.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeDiscoveryConvention
+
+
 * System.Data.Entity.ModelConfiguration.Conventions.StoreGeneratedIdentityKeyConvention
 * System.Data.Entity.ModelConfiguration.Conventions.PluralizingEntitySetNameConvention
 * System.Data.Entity.ModelConfiguration.Conventions.DeclaredPropertyOrderingConvention
