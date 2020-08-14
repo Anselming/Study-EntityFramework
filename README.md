@@ -63,6 +63,9 @@ There are so many conventions. Now Im going to talk a little about each separate
 This category works creating the conceptual model by understanting what column is ID, how relashionship works, how pluralizing works ans something like that.
 
 * System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention
+
+That's a convention to detect Id column where the name is 'id' ou type+'id'
+
 * System.Data.Entity.ModelConfiguration.Conventions.AssociationInverseDiscoveryConvention
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyNavigationPropertyAttributeConvention
 * System.Data.Entity.ModelConfiguration.Conventions.OneToOneConstraintIntroductionConvention
