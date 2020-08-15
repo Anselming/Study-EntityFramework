@@ -233,12 +233,18 @@ The ComplexType has restrictions:
 3 - It cannot be called directly
 
 
-
-
 ### StoreModelConventions
 * System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention
+
+This convention understands what is a plural of the table name and use that.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ColumnOrderingConventionStrict
+
+It validates the correct order of column to avoid duplicated values in some column.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyIndexConvention
+
+This convention creates indexes for foreign keys
 
 
 ## Exercise 5 - CRUD
