@@ -225,9 +225,13 @@ This convention understands the attribute [ComplexType].
 It represents a special type. Imagine you have some banch of columns in your table that you want to store in a differente class.
 Normally, if you do that, EF understand you want to create a new Table, but if you annotate ComplexType, EF will create columns on the table that calls it.
 The ComplexType has restrictions:
-* It cannot has ID column
-* It only has primitive colums
-* It cannot be called directly
+
+1 - It cannot has ID column
+
+2 - It only has primitive colums
+
+3 - It cannot be called directly
+
 
 
 
