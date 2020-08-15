@@ -129,9 +129,17 @@ It is used to define de precision of float points as 18 and scale to 2.
 
 It is a main convention, used to understand the Class who derives from DbContext as a container of a Conception Model.
 
-### ConceptualToStoreMappingConventions
+### Conceptual to store mapping conventions
+This convention catogory organizes how mapping works and how stores it.
+
 * System.Data.Entity.ModelConfiguration.Conventions.ManyToManyCascadeDeleteConvention
+
+All entities involved in relationships is configured to support a delete cascade
+
 * System.Data.Entity.ModelConfiguration.Conventions.MappingInheritedPropertiesSupportConvention
+
+Convention to undestand details, validate or invalidate inheritances involved in mapping. 
+
 
 ### ConfigurationConventions
 * System.Data.Entity.Infrastructure.ModelNamespaceConvention
