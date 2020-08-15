@@ -34,7 +34,7 @@ So, that works without changing the conventions.
 In this exercise I created a custom convention.
 Imigine this situation: You have a lot a of tables with common name patterns. 
 You can use your database without needing to map any tables or any properties.
-Besides that, you can garantee that your database is compliant with your name patterns.
+Besides that, you can garantee that your database is compliant with your dcname patterns.
 
 Normally, a lot of people prefer configuring the modelCreating virtual method. 
 In this case, you need to do all your tables.
@@ -246,54 +246,94 @@ It validates the correct order of column to avoid duplicated values in some colu
 
 This convention creates indexes for foreign keys
 
+## Exercise 5 - Simple CRUD 
+xxxx
+School without relationships
+CRiação do banco de dados via Migrations
 
-## Exercise 5 - CRUD
+## Exercise 6 - Crud with relationships
+
+Model with ~10 tables, created manually
+
+## Exercice 7 - Crud with a existent table for example
+
+Mapping all data
+
+## Exercice 8 - Crud with a existent table for example
+
+Mapping all data
+Usar outro
+
+## Exercise 9 - Database Inicialyzing
 xxxx
 
-## Exercise 6 - Database Inicialyzing
-xxxx
-
-## Exercise 7 - Mapping by Attributes
+## Exercise 10 - Mapping by Attributes
 Mapping by Attributes
 - Relashionship one-one
 - Relashionship one-many
 - Relashionship many-many
 - Relashionship many-many-many
 
-## Exercise 8 - Mapping by Attributes
+## Exercise 11 - Mapping by Attributes
 Mapping by Attributes
 - Table per Hierarchy (TPH)
 - Table per Type (TPT)
 - Table per Concrete Class (TPC)
 
-## Exercise 9 - Know all Attributes
+## Exercise 12 - Know all Attributes
 xxxx
 
-## Exercise 10 - Fluent
+
+## Exercice 13 - CRUD with TPH
+
+Usar um banco com varias relações
+
+## Exercice 14 - CRUD with TPT
+
+Usar um banco com varias relações
+
+## Exercice 15 - CRUD with TPC
+
+Usar um banco com varias relações
+
+
+## Exercise 16- Fluent
 Fluent
 - Entity Mapping
 - Property Mapping
 
-## Exercise 11 - From Database
+
+## Exercise 17 - CRUD with Fluent using all concepts
+
+## Exercise 18 - Creating a EntityModel from Database
 xxxx
 
-## Exercise 12 - Delete Cascade
+## Exercise 19 - Using Delete Cascade
 xxxx
 
-## Exercise 13 - Storage Procedure Mapping
+## Exercise 20 - Storage Procedure Mapping
 xxxx
 
-## Exercise 14 - Creating Seeds
+## Exercise 21 - View Mapping
 xxxx
 
-## Exercise 15 - Create database automatically
+## Exercise 22 - Function Mapping
 xxxx
 
-## Exercise 16 - Using existing database
+## Exercise 23 - Creating Seeds
 xxxx
 
-## Exercise 17 - Generic Repository Pattern
+## Exercise 24 - Create database automatically
 xxxx
 
-## Exercise 18 - Create custom Inicialization
+## Exercise 25 - Using existing database
+xxxx
+
+## Exercise 26 - Generic Repository Pattern
+xxxx
+
+## Exercise 27 - Create custom Inicialization
+xxxx
+
+## Exercise 28 - Using an Unit of Work
 xxxx
