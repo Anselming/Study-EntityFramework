@@ -59,7 +59,7 @@ So, look at a database
 ## Exercise 4 - All native conventions
 There are so many conventions. Now Im going to talk a little about each separated in main categories.
 
-### ConceptualModelConventions
+### Conceptual Model Conventions
 This category works creating the conceptual model by understanting what column is ID, how relashionship works, how pluralizing works ans something like that.
 
 * System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention
@@ -99,14 +99,35 @@ The requirement relationships can be deleted in cascade by this convention.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeDiscoveryConvention
 
+When it has no specific information like primary key, mapped based type and navegation properties, this convention has been used.
 
 * System.Data.Entity.ModelConfiguration.Conventions.StoreGeneratedIdentityKeyConvention
+
+This convention works to identify integer primary key to be identity.
+
 * System.Data.Entity.ModelConfiguration.Conventions.PluralizingEntitySetNameConvention
+
+This convention understands the name of entity as a plural.
+
 * System.Data.Entity.ModelConfiguration.Conventions.DeclaredPropertyOrderingConvention
+
+With this convention, primary key appears first.
+
 * System.Data.Entity.ModelConfiguration.Conventions.SqlCePropertyMaxLengthConvention
+
+This convention is used for define default mas lenght for Microsoft SQL Server Compact Edition
+
 * System.Data.Entity.ModelConfiguration.Conventions.PropertyMaxLengthConvention
+
+If yout use a property who supports lenght, this convention has been used. The default value is 128.
+
 * System.Data.Entity.ModelConfiguration.Conventions.DecimalPropertyConvention
+
+It is used to define de precision of float points as 18 and scale to 2.
+
 * System.Data.Entity.Infrastructure.ModelContainerConvention
+
+It is a main convention, used to understand the Class who derives from DbContext as a container of a Conception Model.
 
 ### ConceptualToStoreMappingConventions
 * System.Data.Entity.ModelConfiguration.Conventions.ManyToManyCascadeDeleteConvention
