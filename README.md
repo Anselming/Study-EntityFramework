@@ -233,7 +233,7 @@ The ComplexType has restrictions:
 3 - It cannot be called directly
 
 
-### StoreModelConventions
+### Store Model Conventions
 * System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention
 
 This convention understands what is a plural of the table name and use that.
