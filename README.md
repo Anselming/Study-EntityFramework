@@ -64,15 +64,15 @@ This category works creating the conceptual model by understanting what column i
 
 * System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention
 
-That's a convention to detect Id column where the name is 'id' ou type+'id'
+That's a convention to detect Id column where the name is 'id' ou type+'id'.
 
 * System.Data.Entity.ModelConfiguration.Conventions.AssociationInverseDiscoveryConvention
 
-That's a conventicion to understand how relashionship association works and revert the association when only one pair of navigation properties exists.
+That's a conventicion to understand how relashionship association works and revert the association when only one pair of navigation properties exists..
 
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyNavigationPropertyAttributeConvention
 
-That's a convention attribute (decoration) to undarstand the column as a foreign key
+That's a convention attribute (decoration) to undarstand the column as a foreign key.
 
 * System.Data.Entity.ModelConfiguration.Conventions.OneToOneConstraintIntroductionConvention
 
@@ -91,6 +91,7 @@ When the foreign key matches the name of the primary key, this convention has be
 When the foreign key matches the name of the primary key with a type name, this convention has been used.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyAssociationMultiplicityConvention
+
 This convention understand if foreign key is optional or not by the nullable definition.
 
 * System.Data.Entity.ModelConfiguration.Conventions.OneToManyCascadeDeleteConvention
@@ -115,7 +116,7 @@ With this convention, primary key appears first.
 
 * System.Data.Entity.ModelConfiguration.Conventions.SqlCePropertyMaxLengthConvention
 
-This convention is used for define default mas lenght for Microsoft SQL Server Compact Edition
+This convention is used for define default mas lenght for Microsoft SQL Server Compact Edition.
 
 * System.Data.Entity.ModelConfiguration.Conventions.PropertyMaxLengthConvention
 
@@ -134,7 +135,7 @@ This convention catogory organizes how mapping works and how stores it.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ManyToManyCascadeDeleteConvention
 
-All entities involved in relationships is configured to support a delete cascade
+All entities involved in relationships is configured to support a delete cascade.
 
 * System.Data.Entity.ModelConfiguration.Conventions.MappingInheritedPropertiesSupportConvention
 
@@ -142,7 +143,7 @@ Convention to undestand details, validate or invalidate inheritances involved in
 
 
 ### Configuration Conventions
-This convention category defines specific configuration of database, mapping tables/entities and properties
+This convention category defines specific configuration of database, mapping tables/entities and properties.
 
 * System.Data.Entity.Infrastructure.ModelNamespaceConvention
 
@@ -150,83 +151,83 @@ This convention understand the namespace of derived DbContext Class as the names
 
 * System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyPrimitivePropertyAttributeConvention
 
-This convention understands the attribute [ForeignKey]
+This convention understands the attribute [ForeignKey].
 It is used to define the property as a Foreign Key.
 
 * System.Data.Entity.ModelConfiguration.Conventions.InversePropertyAttributeConvention
 
-This convention understands the attribute [InverseProperty]
+This convention understands the attribute [InverseProperty].
 It is used when it has a entity with more than one relationship for some class. In this case, normal conventions do not work very well.
 
 * System.Data.Entity.ModelConfiguration.Conventions.IndexAttributeConvention
 
-This convention understands the attribute [Index]
+This convention understands the attribute [Index].
 It is used for define indexes of a Tables automatically.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ColumnAttributeConvention
 
-This convention understands the attribute [Column]
+This convention understands the attribute [Column].
 It represents the database column.
 
 * System.Data.Entity.ModelConfiguration.Conventions.StringLengthAttributeConvention
 
-This convention understands the attribute [StringLength]
+This convention understands the attribute [StringLength].
 It used for limits (min and max) of a string data column.
 
 * System.Data.Entity.ModelConfiguration.Conventions.MaxLengthAttributeConvention
 
-This convention understands the attribute [MaxLength]
+This convention understands the attribute [MaxLength].
 It indicates de max lenght of a string data or an array.
 
 * System.Data.Entity.ModelConfiguration.Conventions.DatabaseGeneratedAttributeConvention
 
-This convention understands the attribute [DatabaseGenerated]
+This convention understands the attribute [DatabaseGenerated].
 It configures if and how EF will create/update the column on the database. For example, it can has one ID column that will not created or update automatically by EF. For that, this attribute has been used.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ConcurrencyCheckAttributeConvention
 
-This convention understands the attribute [ConcurrencyCheck]
+This convention understands the attribute [ConcurrencyCheck].
 It it used for improve DELETE and UPDATE actions for concurrencies on database with more clouse on WHERE to avoid problems.
 
 * System.Data.Entity.ModelConfiguration.Conventions.TimestampAttributeConvention
 
-This convention understands the attribute [Timestamp]
+This convention understands the attribute [Timestamp].
 It represents a row version.
 
 * System.Data.Entity.ModelConfiguration.Conventions.RequiredNavigationPropertyAttributeConvention
 
-This convention understands the attribute [RequiredNavigationProperty]
+This convention understands the attribute [RequiredNavigationProperty].
 It configures a relationship of an entity that supports navitation between them.
 
 * System.Data.Entity.ModelConfiguration.Conventions.RequiredPrimitivePropertyAttributeConvention
 
-This convention understands the attribute [RequiredPrimitiveProperty]
+This convention understands the attribute [RequiredPrimitiveProperty].
 It indicates the date is required.
 
 * System.Data.Entity.ModelConfiguration.Conventions.KeyAttributeConvention
 
-This convention understands the attribute [Key]
+This convention understands the attribute [Key].
 It indicates the column is a key
 
 * System.Data.Entity.ModelConfiguration.Conventions.NotMappedPropertyAttributeConvention
 
-This convention understands the attribute [NotMappedProperty]
+This convention understands the attribute [NotMappedProperty].
 It supress such column.
 
 * System.Data.Entity.ModelConfiguration.Conventions.TableAttributeConvention
 
-This convention understands the attribute [Table]
+This convention understands the attribute [Table].
 It indicates the Entity is a Table do be mapped.
 
 * System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeAttributeConvention
 
-This convention understands the attribute [ComplexType]
+This convention understands the attribute [ComplexType].
 It represents a special type. Imagine you have some banch of columns in your table that you want to store in a differente class.
 Normally, if you do that, EF understand you want to create a new Table, but if you annotate ComplexType, EF will create columns on the table that calls it.
 The ComplexType has restrictions:
-	- It cannot has ID column
-	- It only has primitive colums
-	- It cannot be called directly
+* It cannot has ID column
+* It only has primitive colums
+* It cannot be called directly
 
 
 
