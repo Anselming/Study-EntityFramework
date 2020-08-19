@@ -247,13 +247,16 @@ It validates the correct order of column to avoid duplicated values in some colu
 This convention creates indexes for foreign keys
 
 ## Exercise 5 - Simple CRUD 
-xxxx
-School without relationships
-CRiação do banco de dados via Migrations
+A new database called 'Mercado' has been created for this excercice.
+It's a very simple CRUD configured only with default conventions, without fluent API or data anotations.
+
+![Students Table](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/ex5-mercado.png)
 
 ## Exercise 6 - Crud with relationships
+Another database has been maded with name 'Market'.
+This database has more tables, more relationships then needs a specific mapping configuration.
+![Students Table](https://github.com/Anselming/Study-EntityFramework/blob/master/assets/ex-market.png)
 
-Model with ~10 tables, created manually
 
 ## Exercice 7 - Crud with a existent table for example
 
